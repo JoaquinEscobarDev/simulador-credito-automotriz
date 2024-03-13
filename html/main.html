@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <meta charset="utf-8">
+    <title>Credi auto</title>
+    <link rel="stylesheet" href="../css/style.css" type="text/css">
+</head>
+<body>
+    <div class="marco">
+        <!-- FORMULARIO -->
+        <div class="divForm">
+            <h5>Credito automotriz</h5>
+            <p>Para calcular su credito debe rellenar el siguiente formulario</p>
+            <p>El monto del auto debe ser sobre 0</p>
+            <p>El credito que desea solicitar debe ser hasta el 75% del valor del auto</p>
+            <form id="formulario" action="#" method="get">
+                <div class="grid-container">
+                    <div>
+                        <div class="form-group">
+                            <label for="estadoVehiculo">Estado del vehiculo</label>
+                        </div>
+                    </div>
+                    <div>
+                        <input type="radio" name="estado" id="estadoNuevo" value="Nuevo">Nuevo
+                        <input type="radio" name="estado" id="estadoUsado" value="Usado">Usado
+                    </div>
+                    <div>
+                        <div class="form-group">
+                            <label for="precioVehiculo">Precio del vehiculo</label>
+                        </div>
+                    </div>
+                    <div>
+                        <input type="text" placeholder="Precio del auto" id="precio" ondrop="return false;" onpaste="return false;" onkeypress="return event.charCode>=48 && event.charCode<=57">
+                    </div>
+                    <div>
+                        <div class="form-group">
+                            <label for="montoCredito">Monto credito solicitado</label>
+                        </div>
+                    </div>
+                    <div>
+                        <input type="text" placeholder="Ingrese monto del credito" id="credito" ondrop="return false;" onpaste="return false;" onkeypress="return event.charCode>=48 && event.charCode<=57">
+                    </div>
+                    <div>
+                        <div class="form-group">
+                            <label for="plazoPago">Plazo en años a pagar</label>
+                        </div>
+                    </div>
+                    <div>
+                        <input type="text" placeholder="Ingrese plazo en años" id="años" ondrop="return false;" onpaste="return false;" onkeypress="return event.charCode>=48 && event.charCode<=57">
+                    </div>
+                </div>
+                <button type="submit" onclick="calculo()">Calcular</button>
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        <script src="../js/script.js"></script>
+    </footer>
+</body>
+</html>
