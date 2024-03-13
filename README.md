@@ -1,5 +1,7 @@
-
 # Credito Automotriz
+![imagen](https://github.com/JoaquinEscobarDev/simulador-credito-automotriz/assets/152922219/4828ecda-1592-4c2e-b185-c76696294c7d)
+![imagen](https://github.com/JoaquinEscobarDev/simulador-credito-automotriz/assets/152922219/03568699-c3f4-488b-8b3e-ffe3ccb45790)
+
 
 - La página web proporciona un formulario interactivo para calcular el monto de un crédito automotriz. Los usuarios pueden ingresar detalles como el estado del vehículo (nuevo o usado), el precio del automóvil, el monto de crédito deseado y el plazo del préstamo. Después de completar el formulario, la función de cálculo valida los datos ingresados y presenta el monto solicitado, el total a pagar y el plazo del préstamo en meses.
 
